@@ -1,0 +1,16 @@
+{
+  "name": "chai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "first test"
+  },
+  "keywords": [
+    "js",
+    "and",
+    "backend"
+  ],
+  "author": "asit",
+  "license": "ISC",
+  "description": ""
+}
