@@ -1,12 +1,13 @@
 //require('dotenv').config({path:'./env'})
 import  dotenv  from "dotenv";
 
-import connectDB from "./db/index.js";
-
+import dbConnect from "./db/index.js";
+//it ensure all the enviromental variable are asseseble using procese.env
 dotenv.config({
     path:'./env'
 })
-connectDB()
+//if it is return promse then handle with .then
+dbConnect()
 .then(()=>{
     app.listen(process.env.PORT ||8000,()=>{
         console.log(`Server is running as the port${process.env.PORT}`)
